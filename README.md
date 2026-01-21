@@ -118,5 +118,23 @@ Impact: 30% reduction in downtime, improved quality control, regulatory complian
 ## Example: Subscription Traceability Data
 #### Training Data Format
 
+```python
+[
+  {
+    "input": "Extract subscription usage details:\nCustomer 10000 used Apple Music on Mobile under the Family plan costing $6.39 in region AU.",
+    "output": {
+      "customer_id": "CUST-10000",
+      "service_name": "Apple Music",
+      "subscription_plan": "Family",
+      "monthly_price_usd": 6.39,
+      "device_type": "Mobile",
+      "region": "AU",
+      "usage_hours": 4.57,
+      "event_timestamp": "2024-06-15T00:00:00"
+    }
+  }
+]
+```
+
 
 
