@@ -136,5 +136,13 @@ Impact: 30% reduction in downtime, improved quality control, regulatory complian
 ]
 ```
 
+## Model Performance
+#### Before Fine-Tuning:
+
+```python
+Input: "Customer 10001 used Apple Music on Game Console under Basic plan"
+Output: "The customer uses Apple Music on a game console with the Basic plan."
+```
+
 
 
