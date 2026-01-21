@@ -8,7 +8,7 @@
 ## Key Innovation
 ##### Traditionally, enterprise-grade AI required expensive infrastructure ($20,000+ GPUs) and specialized expertise. This project proves that:
 
-- Consumer GPUs (RTX 3060/4060, ~$300-500) are sufficient for many enterprise LLM applications
+- Consumer GPUs (RTX 3060/4060/4070, ~$1200- 2000) are sufficient for many enterprise LLM applications
 
 - 4-bit quantization (via Unsloth) reduces memory requirements by 75%
 
@@ -32,7 +32,7 @@
 
 | Traditional Enterprise AI | Our Efficient Approach | Cost/Speed Advantage |
 |---------------------------|------------------------|----------------------|
-| A100/H100 GPUs ($20,000+ each) | RTX 4060 ($300) | **99% cost reduction** on hardware |
+| A100/H100 GPUs ($20,000+ each) | RTX 4060 ($1200 on Omen HP computer) | **99% cost reduction** on hardware |
 | Weeks of training time | 30 minutes fine-tuning | **300x faster** training cycles |
 | $10,000+ monthly cloud costs | $0.50 electricity cost | **20,000x cost reduction** |
 | Enterprise AI team (5+ people) | Single developer | **80% team reduction** |
@@ -44,7 +44,7 @@
 
 | Aspect | Traditional Enterprise Approach | Modern Efficient Approach | Impact |
 |--------|---------------------------------|---------------------------|--------|
-| **Hardware Investment** | A100/H100 GPUs<br>($20,000+ per GPU) | Consumer RTX 4060<br>($1500 per GPU) | **>94.5% cost reduction**<br>Accessible to small teams |
+| **Hardware Investment** | A100/H100 GPUs<br>($20,000+ per GPU) | Consumer RTX 4070<br>($1200 per GPU) | **>94.5% cost reduction**<br>Accessible to small teams |
 | **Training Time** | Weeks of full training<br>(7-21 days typical) | 30 minutes fine-tuning<br>using pre-trained models | **336x faster iterations**<br>Rapid experimentation |
 | **Operational Costs** | $10,000+ monthly cloud bills<br>(AWS/GCP/Azure) | ~$0.50 electricity cost<br>(local execution) | **20,000x lower operational cost**<br>Predictable expenses |
 | **Team Requirements** | Full enterprise AI team:<br>• ML Engineers<br>• DevOps<br>• Data Scientists | Single full-stack developer<br>with AI specialization | **400% team efficiency**<br>Simplified coordination |
