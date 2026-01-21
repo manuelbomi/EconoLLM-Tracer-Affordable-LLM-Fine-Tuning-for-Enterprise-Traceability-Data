@@ -1,0 +1,11 @@
+To use with Ollama:
+
+1. Make sure Ollama is installed on Windows
+2. Open WSL terminal
+3. Run these commands:
+
+cd /home/manuelbomi/fine_tune_LLM
+ollama create phi3-finetuned -f Modelfile
+ollama run phi3-finetuned
+
+4. Test with: "Extract subscription usage details: Customer 10001 used Apple Music..."
