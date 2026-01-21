@@ -264,5 +264,31 @@ econollm-tracer/
 └── LICENSE
 ```
 
+---
+
+## Getting Started
+#### Quick Start
+
+```python
+# Clone repository
+git clone https://github.com/yourusername/econollm-tracer.git
+cd econollm-tracer
+
+# Setup environment
+./scripts/setup_venv.sh
+
+# Install requirements
+pip install -r requirements.txt
+
+# Train model
+python src/train.py --model tinyllama --epochs 3
+
+# Create Ollama model
+ollama create tracer-model -f Modelfile_tinyllama
+
+# Test inference
+ollama run tracer-model "Extract data: Customer used Netflix Premium"
+```
+
 
 
