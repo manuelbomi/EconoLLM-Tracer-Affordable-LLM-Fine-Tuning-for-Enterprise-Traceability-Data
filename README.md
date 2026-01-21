@@ -365,8 +365,7 @@ Join us in making enterprise AI accessible to everyone!
 > Below are teh example outputs of each cell of the code in VSCode if your project is properly configured.
 >
 >
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/313e5344-3506-4b17-944d-9e85bda8a9ba" />
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/dd1937dd-99df-4b51-b1c5-7a48717f9711" />
+
 <img width="658" height="319" alt="Image" src="https://github.com/user-attachments/assets/f8bff7df-52b9-45c6-b449-92bbe3d62648" />
 <img width="909" height="205" alt="Image" src="https://github.com/user-attachments/assets/dc5143a3-7dd0-462c-a5b0-457590f78397" />
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/8aefe9a7-7a0e-4c1b-adcb-27957cc38f31" />
@@ -374,6 +373,8 @@ Join us in making enterprise AI accessible to everyone!
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/bf4c7ad6-edeb-4ea3-b6e9-6828f1c36c35" />
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/800dfa00-d4ca-4b4f-8b02-5c1bb231e100" />
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/435f3700-9ea9-4702-a4ed-a643163cdfef" />
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/313e5344-3506-4b17-944d-9e85bda8a9ba" />
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/dd1937dd-99df-4b51-b1c5-7a48717f9711" />
 
 
 
