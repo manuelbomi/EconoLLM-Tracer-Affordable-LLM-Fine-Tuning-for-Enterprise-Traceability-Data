@@ -144,5 +144,24 @@ Input: "Customer 10001 used Apple Music on Game Console under Basic plan"
 Output: "The customer uses Apple Music on a game console with the Basic plan."
 ```
 
+#### After Fine-Tuning:
+```python
+Input: "Customer 10001 used Apple Music on Game Console under Basic plan costing $16.23"
+Output: {
+  "customer_id": "CUST-10001",
+  "service_name": "Apple Music",
+  "subscription_plan": "Basic",
+  "monthly_price_usd": 16.23,
+  "device_type": "Game Console",
+  "region": "AU",
+  "usage_hours": 3.97,
+  "event_timestamp": "2024-12-02T00:00:00"
+}
+```
+
+## Technical Setup Guide
+
+#### 1. WSL Ubuntu Setup (For Windows Users)
+
 
 
