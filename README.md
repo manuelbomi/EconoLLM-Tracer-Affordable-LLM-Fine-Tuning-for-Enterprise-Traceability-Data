@@ -75,5 +75,48 @@
 - **Optimization:** LoRA/QLoRA, quantization, gradient checkpointing
 - **Deployment:** FastAPI, Docker, lightweight cloud/on-prem
 
+---
+
+## Enterprise Applications by Industry
+#### <ins>Media & Streaming Services</ins>
+Problem: Manual extraction of subscription data from support tickets, emails, and chat logs
+
+Solution: Automatically extract customer preferences, usage patterns, and billing issues
+
+Impact: 80% reduction in manual data entry, improved churn prediction
+
+#### <ins>Healthcare & Hospitals</ins>
+Problem: Unstructured patient records, equipment usage logs, medication tracking
+
+Solution: Extract structured data from clinical notes, maintenance logs, inventory records
+
+Impact: Better patient outcomes, regulatory compliance (HIPAA), equipment optimization
+
+#### <ins>Online Education Platforms</ins>
+Problem: Student engagement data scattered across forums, assignments, and support tickets
+
+Solution: Track learning patterns, identify at-risk students, optimize course content
+
+Impact: 40% improvement in student retention, personalized learning paths
+
+#### <ins> Quick Service Restaurant (QSR) Industry</ins>
+Problem: Supply chain data in invoices, delivery notes, quality reports
+
+Solution: Extract ingredient sourcing, vendor performance, food safety compliance
+
+Impact: Reduced waste, better inventory management, faster recall responses
+
+#### <ins> Manufacturing & Supply Chain</ins>
+Problem: Production logs, maintenance records, quality control notes in unstructured formats
+
+Solution: Track component traceability, predict maintenance needs, ensure compliance
+
+Impact: 30% reduction in downtime, improved quality control, regulatory compliance
+
+---
+
+## Example: Subscription Traceability Data
+#### Training Data Format
+
 
 
