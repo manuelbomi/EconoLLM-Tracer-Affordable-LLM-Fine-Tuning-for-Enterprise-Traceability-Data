@@ -302,5 +302,29 @@ config = {
 }
 ```
 
+---
 
+## Future Roadmap
+
+#### <ins>Short-term (1-3 months)</ins>
+- Add support for multilingual traceability
+
+- Implement batch processing pipeline
+
+- Create web interface for non-technical users
+
+#### <ins>Medium-term (3-6 months)</ins>
+- Add vision capabilities for document extraction
+
+- Implement federated learning for privacy
+
+- Create industry-specific templates
+
+
+#### <ins>Long-term (6-12 months)</ins>
+- Develop auto-fine-tuning based on feedback
+
+- Create marketplace for pre-trained models
+
+- Enterprise support and consulting services
 
