@@ -163,5 +163,93 @@ Output: {
 
 #### 1. WSL Ubuntu Setup (For Windows Users)
 
+```python
+# Open WSL from PowerShell
+wsl -d Ubuntu-22.04
+
+# Set up project directory
+mkdir ~/fine_tune_LLM
+cd ~/fine_tune_LLM
+
+# Open in VSCode
+code .
+```
+
+#### 2. One-Time Environment Setup
+
+```python
+# Update and install essentials
+sudo apt update
+sudo apt install python3-venv -y
+
+# Create and activate virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Verify environment
+which python  # Should show venv/bin/python
+pip --version # Should show venv pip
+
+# Create setup script for future use
+cat > setup_venv.sh << 'EOF'
+#!/bin/bash
+sudo apt update
+sudo apt install python3-venv -y
+python3 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip
+EOF
+
+chmod +x setup_venv.sh
+```
+
+#### 3. Install Dependencies
+
+```python
+# Activate virtual environment
+source venv/bin/activate
+
+# Install Unsloth (optimized for consumer GPUs)
+pip install "unsloth @ git+https://github.com/unslothai/unsloth.git" --no-deps
+
+# Install other requirements
+pip install torch transformers datasets trl accelerate peft ollama
+```
+
+#### 4. Why Avoid Docker Desktop WSL?
+- Minimal WSL lacks GPU passthrough capabilities
+
+- Ubuntu LTS provides full Linux environment with proper driver support
+
+- Direct installation ensures optimal GPU utilization for training
+
+- VSCode integration offers seamless development experience
+
+---
+
+## Project Structure
+
+```python
+econollm-tracer/
+├── data/
+│   ├── customer_subscription_traceability.json
+│   └── sample_training_data.json
+├── notebooks/
+│   └── fine_tune_tinyllama.ipynb
+├── src/
+│   ├── train.py
+│   ├── inference.py
+│   └── data_preprocessor.py
+├── models/
+│   └── tinyllama-finetuned/
+├── scripts/
+│   ├── setup_venv.sh
+│   └── create_ollama_model.sh
+├── requirements.txt
+├── Modelfile_tinyllama
+├── README.md
+└── LICENSE
+```
+
 
 
