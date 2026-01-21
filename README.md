@@ -44,7 +44,7 @@
 
 | Aspect | Traditional Enterprise Approach | Modern Efficient Approach | Impact |
 |--------|---------------------------------|---------------------------|--------|
-| **Hardware Investment** | A100/H100 GPUs<br>($20,000+ per GPU) | Consumer RTX 4060<br>($300 per GPU) | **98.5% cost reduction**<br>Accessible to small teams |
+| **Hardware Investment** | A100/H100 GPUs<br>($20,000+ per GPU) | Consumer RTX 4060<br>($1500 per GPU) | **>94.5% cost reduction**<br>Accessible to small teams |
 | **Training Time** | Weeks of full training<br>(7-21 days typical) | 30 minutes fine-tuning<br>using pre-trained models | **336x faster iterations**<br>Rapid experimentation |
 | **Operational Costs** | $10,000+ monthly cloud bills<br>(AWS/GCP/Azure) | ~$0.50 electricity cost<br>(local execution) | **20,000x lower operational cost**<br>Predictable expenses |
 | **Team Requirements** | Full enterprise AI team:<br>• ML Engineers<br>• DevOps<br>• Data Scientists | Single full-stack developer<br>with AI specialization | **400% team efficiency**<br>Simplified coordination |
@@ -63,17 +63,6 @@
 - **Accessibility:** Enables startups and small teams to compete
 - **Sustainability:** Lower energy consumption and carbon footprint
 
-## Cost-Benefit Analysis: Traditional vs Efficient AI Development
-
-| Metric | Traditional Approach | Efficient Approach | Savings |
-|--------|---------------------|--------------------|---------|
-| **Initial Hardware** | $100,000 (5× A100 GPUs) | $1,500 (5× RTX 4060) | **$98,500** (98.5%) |
-| **Monthly Cloud Costs** | $10,000 | $15 (electricity) | **$9,985** (99.85%) |
-| **Team Costs (Annual)** | $1,000,000 (5-person team) | $150,000 (1 developer) | **$850,000** (85%) |
-| **Time to First Model** | 3 months | 1 week | **11 weeks faster** |
-| **Annual Experiment Capacity** | 10-20 experiments | 200-500 experiments | **25x more iterations** |
-| **Total First-Year Cost** | **$1,220,000** | **$166,515** | **$1,053,485 saved** |
-
 ## Implementation Roadmap
 1. **Week 1-2:** Setup local development environment
 2. **Week 3-4:** Fine-tune first model on RTX hardware
@@ -86,12 +75,5 @@
 - **Optimization:** LoRA/QLoRA, quantization, gradient checkpointing
 - **Deployment:** FastAPI, Docker, lightweight cloud/on-prem
 
-Traditional Approach           | Our Approach
--------------------------------|-----------------------------------------
-A100/H100 GPUs ($20,000+)      | RTX 4060 ($300)
-Weeks of training              | 30 minutes fine-tuning
-$10,000+ cloud costs           | $0.50 electricity
-Enterprise AI team             | Single developer
-Months to production           | Days to deployment
 
 
