@@ -290,5 +290,17 @@ ollama create tracer-model -f Modelfile_tinyllama
 ollama run tracer-model "Extract data: Customer used Netflix Premium"
 ```
 
+#### Customize for Your Industry
+
+```python
+# Simple configuration
+config = {
+    "industry": "healthcare",
+    "fields": ["patient_id", "medication", "dosage", "timestamp"],
+    "model": "tinyllama",
+    "gpu": "rtx4060"
+}
+```
+
 
 
