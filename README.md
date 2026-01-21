@@ -65,6 +65,11 @@
 - Consistent schema: Enterprise data pipeline integration
 - High accuracy: >95% field extraction accuracy
 
+## Easy Deployment
+- Ollama integration: Single command deployment
+- Local inference: No API costs, data privacy preserved
+- Docker support: Containerized deployment options
+
 ## Business Impact Summary
 - **Total Cost Reduction:** 99%+ compared to traditional approaches
 - **Development Speed:** 10-100x faster iteration cycles
