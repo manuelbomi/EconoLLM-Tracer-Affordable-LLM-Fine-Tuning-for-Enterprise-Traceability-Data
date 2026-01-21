@@ -19,7 +19,8 @@
 ---
 > [!IMPORTANT]
 >
-> Technical Achievement
+> <ins>Technical Achievement </ins>
+> 
 Fine-tuned TinyLlama (1.1B parameters) to extract structured JSON from subscription traceability data with >95% accuracy, using only 4GB VRAM and 30 minutes of training time on consumer hardware.
 > 
 
