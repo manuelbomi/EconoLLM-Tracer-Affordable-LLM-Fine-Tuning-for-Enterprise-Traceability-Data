@@ -271,7 +271,7 @@ econollm-tracer/
 
 ```python
 # Clone repository
-git clone https://github.com/yourusername/econollm-tracer.git
+git clone https://github.com/manuelbomi/EconoLLM-Tracer-Affordable-LLM-Fine-Tuning-for-Enterprise-Traceability-Data.git
 cd econollm-tracer
 
 # Setup environment
