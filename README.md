@@ -91,6 +91,14 @@
 ---
 
 ## Enterprise Applications by Industry
+#### <ins> Manufacturing & Supply Chain</ins>
+Problem: Production logs, maintenance records, quality control notes in unstructured formats
+
+Solution: Track component traceability, predict maintenance needs, ensure compliance
+
+Impact: 30% reduction in downtime, improved quality control, regulatory compliance
+
+
 #### <ins>Media & Streaming Services</ins>
 Problem: Manual extraction of subscription data from support tickets, emails, and chat logs
 
@@ -119,12 +127,7 @@ Solution: Extract ingredient sourcing, vendor performance, food safety complianc
 
 Impact: Reduced waste, better inventory management, faster recall responses
 
-#### <ins> Manufacturing & Supply Chain</ins>
-Problem: Production logs, maintenance records, quality control notes in unstructured formats
 
-Solution: Track component traceability, predict maintenance needs, ensure compliance
-
-Impact: 30% reduction in downtime, improved quality control, regulatory compliance
 
 ---
 
